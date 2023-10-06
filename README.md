@@ -2,7 +2,7 @@
 
 ## Descriptions
 
-I am building a daily planner in order to keep a work schedule organized. I am going to allow a user to save events for each hour of a typical working day (9am -5pm). It will run in the browswer and feature dynamically updated HTML and CSS powered by jQuery.
+I am building a daily planner in order to keep a work schedule organized. The applications will allow a user to save events for each hour of a typical working day (9am -5pm). It will run in the browswer and feature dynamically updated HTML and CSS powered by jQuery.
 
 ### User Story
 
