@@ -1,14 +1,21 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 30px;
+  padding-bottom: 100px;
+  background-color: rgb(87, 8, 87);
+  color: white;
+  font-family: 'Charmonman', cursive;
 }
+
+
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(75, 3, 75);
+  border-left: 1px solid white;
   padding: 10px;
 }
 
@@ -21,39 +28,58 @@ textarea {
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 1px dashed white;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: rgb(226, 163, 173);
   color: #000000;
-  border-top: 1px dashed #000000;
+  border: 2px dashed white;
+  border-radius: 50px;
+  font-weight: bold;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: rgb(203, 136, 203);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: rgb(81, 40, 88);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: rgb(203, 56, 176);
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  border: 2px dashed white;
+  border-radius: 50px;
+  background-color: rgb(226, 163, 173);
+  color: black;
+  font-family: none;
+  font-size: 25px;
+  height: 50%;
+  margin-top: 20px;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+#notification {
+  margin: auto;
+  background-color: rgb(83, 205, 239);
+  color:white;
+  padding: 8px;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.notification-icon {
+  font-size: 24px;
+  margin-left: 10px;
 }

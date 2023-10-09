@@ -3,6 +3,9 @@ $(document).ready(function () {
   updateBlockClasses();
   loadEvents();
 
+  var notification = $("#notification");
+  var notificationText = $(".notification-text");
+
   $(".saveBtn").on("click", function () {
     var hour = $(this).parent().attr("id");
     var eventText = $(this).siblings(".description").val();
@@ -10,11 +13,19 @@ $(document).ready(function () {
     console.log(hour);
     console.log(eventText);
 
-    saveEvent(hour, eventText);
+    saveEvent(hour, eventText, notification, notificationText);
   });
 
-  function saveEvent(hour, eventText) {
+  function saveEvent(hour, eventText, notification, notificationText) {
     localStorage.setItem("event-" + hour, eventText);
+
+    notificationText.text("Event saved successfully!");
+
+    notification.show();
+ 
+    setTimeout(function () {
+      notification.hide();
+    }, 3000);
   }
 
   function loadEvents() {
