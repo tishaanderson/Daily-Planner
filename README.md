@@ -39,3 +39,4 @@ https://tishaanderson.github.io/Daily-Planner/
 
 ###### Demo
 
+<video src="Assets/images/Deployed-Page.mp4" controls title="Title"></video>
