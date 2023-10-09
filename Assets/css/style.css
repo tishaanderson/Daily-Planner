@@ -71,6 +71,7 @@ textarea {
 }
 
 #notification {
+  display: none;
   margin: auto;
   background-color: rgb(83, 205, 239);
   color:white;
